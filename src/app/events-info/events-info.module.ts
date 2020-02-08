@@ -9,6 +9,7 @@ import { EventsinfoRoutingModule } from './events-info-routing.module';
 
 
 
+
 @NgModule({
     declarations: [
       
@@ -16,6 +17,7 @@ import { EventsinfoRoutingModule } from './events-info-routing.module';
     imports: [
       BrowserModule,
       BrowserAnimationsModule,
+      
     //   MatCardModule,
     //   MatIconModule
     ],

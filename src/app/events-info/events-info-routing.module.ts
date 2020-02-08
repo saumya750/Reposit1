@@ -3,6 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { EventsInfoComponent } from './events-info.component';
 import { BirthdayComponent } from './birthday/birthday.component';
 import { SeminarComponent } from './seminar/seminar.component';
+import { WeddingComponent } from './wedding/wedding.component';
 
 
 const routes: Routes = [
@@ -18,7 +19,12 @@ const routes: Routes = [
         {
             path:'seminar',
             component:SeminarComponent
+            },
+         {
+          path:'wedding',
+          component:WeddingComponent
             }
+            
     ]
 }
 

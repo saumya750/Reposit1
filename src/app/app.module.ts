@@ -7,11 +7,14 @@ import { EventsInfoComponent } from './events-info/events-info.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {EventsinfoModule} from './events-info/events-info.module';
 import {MatCardModule,MatIconModule} from '@angular/material';
+import {CommonsModule} from './common/commons.module';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    EventsInfoComponent
+    EventsInfoComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
@@ -19,7 +22,8 @@ import {MatCardModule,MatIconModule} from '@angular/material';
     BrowserAnimationsModule,
     EventsinfoModule,
     MatCardModule,
-    MatIconModule
+    MatIconModule,
+    CommonsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
