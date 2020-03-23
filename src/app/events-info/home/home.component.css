@@ -1,0 +1,22 @@
+
+.sec-for-mats{
+  flex-flow:wrap;
+  display:flex;
+  -webkit-flex-direction:row;
+  flex-direction:row;
+}
+.img-container{
+  max-width:400px;
+  max-height:400px;
+  width:100%;
+}
+mat-card {
+  padding:20px;
+  margin:50px;
+  
+  width:400px;
+}
+mat-card-image{
+  width:400px;
+  height:400px;
+}

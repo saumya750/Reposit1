@@ -3,9 +3,11 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgModule } from '@angular/core';
-// import {MatCardModule,MatIconModule} from '@angular/material';
+
 
 import { EventsinfoRoutingModule } from './events-info-routing.module';
+import { CommonsModule } from '../common/commons.module';
+
 
 
 
@@ -17,9 +19,9 @@ import { EventsinfoRoutingModule } from './events-info-routing.module';
     imports: [
       BrowserModule,
       BrowserAnimationsModule,
-      
-    //   MatCardModule,
-    //   MatIconModule
+      EventsinfoRoutingModule,
+      CommonsModule
+    
     ],
     providers: [],
     

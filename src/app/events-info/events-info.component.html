@@ -1,61 +1,15 @@
 <app-header></app-header>
-  <div class="row">
-    <!-- <div class="col-sm-4"> -->
-      
-      <mat-card class="example-card col-xs-4" routerLink="./wedding">
-        <div class="short-card">
-          <mat-card-header>
-            <div mat-card-avatar class="example-header-image"></div>
-            <mat-card-title>Weddings</mat-card-title>
-            <!-- <mat-card-subtitle>Dog Breed</mat-card-subtitle> -->
-          </mat-card-header>
-          <img mat-card-image src="./assets/images/wedding.jpg" alt="Photo of a wedding">
-          <mat-card-content>
-            <!-- <p>
-              Weddings
-            </p> -->
-          </mat-card-content>
-          </div>
-        </mat-card>
-      <!-- </div> -->
-      
-      <!-- <div class="col-sm-4">  -->
-        <mat-card class="example-card col-xs-4">
-          <div class="short-card">
-            <mat-card-header>
-              <div mat-card-avatar class="example-header-image"></div>
-              <mat-card-title>Birthdays</mat-card-title>
-              <!-- <mat-card-subtitle>Dog Breed</mat-card-subtitle> -->
-            </mat-card-header>
-            <img mat-card-image src="./assets/images/birthday.jpg" alt="Photo of a birthday">
-            <mat-card-content>
-              <!-- <p>
-                Birthdays
-              </p> -->
-            </mat-card-content>
-            </div>
-          </mat-card>
-        <!-- </div>  -->
-        
-        <!-- <div class="col-sm-4">  -->
-          <mat-card class="example-card col-xs-4">
-            <div class="short-card">
-              <mat-card-header>
-                <div mat-card-avatar class="example-header-image"></div>
-                <mat-card-title>Seminars</mat-card-title>
-                <!-- <mat-card-subtitle>Dog Breed</mat-card-subtitle> -->
-              </mat-card-header>
-              <img mat-card-image src="./assets/images/seminar.jpg" alt="Photo of a seminar">
-              <mat-card-content>
-                <!-- <p>
-                  Seminars
-                </p> -->
-              </mat-card-content>
-              </div>
-            </mat-card>
-          <!-- </div>  -->
-          
-        </div>
-      
-    
+<mat-sidenav-container>
+    <mat-sidenav opened>
+        Side Content
+    </mat-sidenav>
+    <mat-sidenav-content>Main Content
+    <div class="container">
+      <div class="background">
+          <router-outlet></router-outlet>
+      </div>
+      </div>
+    </mat-sidenav-content>
+    </mat-sidenav-container>
+  <app-footer></app-footer>  
       

@@ -1,0 +1,22 @@
+<div class="container">
+    <form [formGroup]="weddingForm">
+        <mat-form-field class="col-sm-4">
+            <mat-label>Country</mat-label>
+            <mat-select>
+                <mat-option *ngFor="let country of CountryList" [(value)]="country">{{country}}</mat-option>
+            </mat-select>
+        </mat-form-field>
+        <mat-form-field>
+            <mat-label>State</mat-label>
+            <mat-select>
+                <mat-option *ngFor="let state of StateList" [(value)]="state">{{state}}</mat-option>
+            </mat-select>
+        </mat-form-field>
+        <mat-form-field>
+            <mat-label>City</mat-label>
+            <mat-select>
+                <mat-option *ngFor="let city of CityList" [(value)]="city">{{city}}</mat-option>
+            </mat-select>
+        </mat-form-field>
+    </form>
+</div>

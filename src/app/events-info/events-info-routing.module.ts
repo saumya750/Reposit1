@@ -4,9 +4,17 @@ import { EventsInfoComponent } from './events-info.component';
 import { BirthdayComponent } from './birthday/birthday.component';
 import { SeminarComponent } from './seminar/seminar.component';
 import { WeddingComponent } from './wedding/wedding.component';
+import { HomeComponent } from './home/home.component';
+import { WeddingFormComponent } from '../forms/wedding-form/wedding-form.component';
+
+
 
 
 const routes: Routes = [
+  {
+    path: 'weddingForm',
+    component: WeddingFormComponent,
+  },
     {
         path: 'events-info',
         component: EventsInfoComponent,
@@ -23,7 +31,12 @@ const routes: Routes = [
          {
           path:'wedding',
           component:WeddingComponent
-            }
+            },
+            {
+              path:'home',
+              component:HomeComponent
+                },
+            
             
     ]
 }

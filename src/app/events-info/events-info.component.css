@@ -1,16 +1,9 @@
 
-.short-card{
-  height:200px;
-  width:200px;
-  padding:20px;
-}
-example-card {
-    max-width: 400px;
-  }
+html ,body{
+    position: relative;
+    min-height: 100%;}
   
-  .example-header-image {
-    /* background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg'); */
-    object-fit: cover;
-    
+  .background{
+    background: url("/assets/images/back-img.jpg")no-repeat center center;
   }
   

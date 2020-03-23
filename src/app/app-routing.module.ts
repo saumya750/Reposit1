@@ -5,13 +5,13 @@ import { AppComponent } from './app.component';
 
 const routes: Routes = [
   { path:'',
-redirectTo:'/events-info',
-pathMatch:"full"
-},
-{
-  path:'**',
-  component:AppComponent
-}
+  redirectTo:'/events-info/home',
+  pathMatch:'full'
+ },
+// {
+//   path:'**',
+//   component:AppComponent
+// }
 
 ];
 
